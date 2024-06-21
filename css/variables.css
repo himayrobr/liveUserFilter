@@ -1,0 +1,14 @@
+:root{
+
+    --color-1:#1524ec;
+    --color-2:rgb(51, 64, 79);
+    --color-3:#464de2;
+    --color-4:#fff;
+    --color-5:#000228;
+    --color-6:#ed1c24;
+
+    --space-layout-pading-lr: 0px 15px;
+    --space-layout-padding-t:5px;
+    --layou-imagen-width:100%;
+    --layou-imagen-height:350px
+}

@@ -1,0 +1,62 @@
+@import url(variables.css);
+*{
+  padding:0;
+  margin: 0;
+  font-family:"";
+  box-sizing: border-box;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var( --color-1);
+    
+}
+.top h2{
+    margin-top: 20px;
+}
+.top h2, h3{
+    margin-left: 20px;
+    color: var(--color-4);
+}
+
+.top input{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: var(--color-3);
+    color:var(--color-4) ;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    gap: 20px;
+    /* background-color: var(--color-6) ; */
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-3);
+}
+.profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+.datos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
