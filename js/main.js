@@ -16,7 +16,7 @@ fetch('https://6674179975872d0e0a950e53.mockapi.io/user')
         const location = profile.querySelector('h5').textContent.toLowerCase();
 
         const isMatch = name.includes(searchTerm) || location.includes(searchTerm);
-        profile.parentElement.style.display = isMatch ? 'block' : 'none';
+        profile.parentElement.style.display = isMatch ? 'flex' : 'none';
       });
     });
   });
