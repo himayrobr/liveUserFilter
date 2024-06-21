@@ -45,6 +45,7 @@
     border-bottom-style: solid;
     border-bottom-color: var(--color-3);
 }
+
 .profile img{
     height: 100px;
     width: 100px;
@@ -53,10 +54,13 @@
     margin-bottom: 20px;
 
 }
+.profile img:hover {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
 .datos{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-
 }
